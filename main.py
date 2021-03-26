@@ -1,3 +1,3 @@
 def get_area(sintyo,taijyu):
-    BMI =  taijyu / sintyo / sintyo 
+    BMI = round(taijyu / (sintyo ** 2)) 
     return BMI
